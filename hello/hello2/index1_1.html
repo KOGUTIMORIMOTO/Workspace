@@ -6,6 +6,9 @@
     </head>
     <body>
         <h1><div class="a">1のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index1.html'" value="編集"><br><br><br>
+        <div class="t">
+            <span id="savedData1_1"></span><br><br>
+        </div>
         <div class="m">
         <div class="i">
             <span id="savedData1"></span><br>
@@ -16,6 +19,10 @@
             // ローカルストレージからデータを取得して表示
             var savedData1 = localStorage.getItem('savedData1');
             document.getElementById('savedData1').innerText = savedData1 || 'No data available';
+        </script>
+        <script>
+            var savedData1_1 = localStorage.getItem('savedData1_1');
+            document.getElementById('savedData1_1').innerText = savedData1_1 || '';
         </script>
     </body>
 </html>
