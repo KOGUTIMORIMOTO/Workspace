@@ -46,6 +46,7 @@
 .textarea {
   border: 3px solid black;
   background-color: rgb(204, 247, 225);
+  font-size: 10pt;
 }
 
 .i {
