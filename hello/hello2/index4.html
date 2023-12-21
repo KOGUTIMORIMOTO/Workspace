@@ -6,8 +6,15 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <h1><div class="a">4のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ">　　　<input type="button" class="bluebutton" onclick="location.href='index4_4.html'" value="出力"><br><br>
+        <h1><div class="a">4のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ">　　　<input type="button" class="bluebutton" onclick="location.href='index4_4.html'" value="完了"><br><br>
         <textarea id="dataInput4" class="textarea" style="width:800px; height:400px" placeholder="メモを入力"></textarea><br>
         <div class="i"><input type="button" class="purplebutton" onclick="saveData4()" value="保存"></div><br><br>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var savedData4 = localStorage.getItem('savedData4');
+                document.getElementById('dataInput4').value = savedData4 || '';
+            });
+        </script>
     </body>
 </html>
