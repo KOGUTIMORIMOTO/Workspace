@@ -60,9 +60,9 @@
     background-color: rgb(244, 212, 243);
 }
 
-.header {
-  background:linear-gradient(90deg, rgb(60, 111, 207), rgb(157, 184, 234)); 
+.header { 
   height:60px;
+  background:linear-gradient(90deg, rgb(100, 149, 237), antiquewhite);
 }
 
 .body {
