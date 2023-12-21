@@ -1,7 +1,7 @@
 .button {
     width: 100px;
     height:50px;
-    color:rgb(66, 16, 49);
+    background-color:rgb(183, 250, 199);
   }
 
 
@@ -12,4 +12,13 @@
 
 .header {
   background-color: cornflowerblue;
+  height:60px;
+}
+
+.body {
+  background-color: antiquewhite;
+}
+
+.a {
+  background-color: pink;
 }
