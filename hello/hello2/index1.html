@@ -9,5 +9,21 @@
         <h1><div class="a">1のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ">　　　<input type="button" class="bluebutton" onclick="location.href='index1_1.html'" value="出力"><br><br>
         <textarea id="dataInput1" class="textarea" style="width:800px; height:400px" placeholder="メモを入力"></textarea><br>
         <div class="i"><input type="button" class="purplebutton" onclick="saveData1()" value="保存"></div><br><br>
+
+        <script>
+            // ページが読み込まれたときに、ローカルストレージからデータを取得してテキストボックスに設定
+            document.addEventListener('DOMContentLoaded', function() {
+                var savedData1 = localStorage.getItem('savedData1');
+                document.getElementById('dataInput1').value = savedData1 || ''; // 初期値として取得したデータを設定
+            });
+    
+            function saveData1() {
+                // 入力されたデータを取得
+                var inputData1 = document.getElementById('dataInput1').value;
+    
+                // ローカルストレージにデータを保存
+                localStorage.setItem('savedData1', inputData1);
+            }
+        </script>
     </body>
 </html>
