@@ -4,6 +4,8 @@ function saveData1() {
 
     var inputData1_1 = document.getElementById('dataInput1_1').value;
     localStorage.setItem('savedData1_1', inputData1_1);
+
+    document.getElementById("current_date").innerHTML = Date();
 }
 
 function saveData2() {
