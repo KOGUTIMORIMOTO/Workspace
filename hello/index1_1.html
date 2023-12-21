@@ -2,20 +2,20 @@
 <html lang="ja">
     <head>
         <title>1のスペース</title>
-        <link rel="stylesheet" href="../index.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
     </head>
     <body>
-        <h1><div class="a">1のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index1.html'" value="編集"><br><br><br>
+        <h1><div class="a">1のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index1.html'" value="編集"><br><br><br>
         <div class="t">
-            <div class="1">
-                <span id="savedData1_1"></span><br><br>
+            <div class="i">
+                <span id="savedData1_1"></span>
             </div>
-        </div>
+        </div><br><br>
         <div class="m">
             <div class="i">
-                <span id="savedData1"></span><br>
+                <span id="savedData1"></span>
             </div>
-        </div>
+        </div><br>
 
         <script>
             // ローカルストレージからデータを取得して表示
@@ -24,7 +24,7 @@
         </script>
         <script>
             var savedData1_1 = localStorage.getItem('savedData1_1');
-            document.getElementById('savedData1_1').innerText = savedData1_1 || '';
+            document.getElementById('savedData1_1').innerText = savedData1_1 || 'タイトルなし';
         </script>
     </body>
 </html>
