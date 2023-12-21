@@ -52,6 +52,7 @@
 .i {
     margin-left: 3em;
     margin-right: 3em;
+    font-size: 15pt;
 }
 
 .m {
@@ -62,7 +63,7 @@
 
 .header { 
   height:60px;
-  background:linear-gradient(90deg, rgb(100, 149, 237), antiquewhite);
+  background:linear-gradient(90deg, rgb(100, 149, 237), rgb(201, 213, 228));
 }
 
 .body {
