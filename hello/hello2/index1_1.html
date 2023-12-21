@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <!--<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <title>1のスペース</title>
-    <link rel="stylesheet" href="../index.css" type="text/css">
-</head>
-<body>
-    <h1>1のスペース</h1>　　　<input type="button" onclick="location.href='index1.html'" value="入力">　　　<input type="button" onclick="location.href='../index.html'" value="ホームへ"><br><br>
-    <div class="i">
-    <span id="savedData1"></span><br>
-    </div>
-
-    <script>
+    <head>
+        <title>1のスペース</title>
+        <link rel="stylesheet" href="../index.css" type="text/css">
+    </head>
+    <body>
+        <h1>1のスペース</h1>　　　<input type="button" onclick="location.href='index1.html'" value="入力">　　　<input type="button" onclick="location.href='../index.html'" value="ホームへ"><br><br>
+        <div class="i">
+            <span id="savedData1"></span><br>
+        </div>
+        
+        <script>
         // ローカルストレージからデータを取得して表示
         var savedData1 = localStorage.getItem('savedData1');
         document.getElementById('savedData1').innerText = savedData1 || 'No data available';
-    </script>
-</body>
+        </script>
+    </body>
 </html>
