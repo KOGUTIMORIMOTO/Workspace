@@ -45,10 +45,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var savedData4_4 = localStorage.getItem('savedData4_4');
     document.getElementById('dataInput4_4').value = savedData4_4 || 'タイトルなし'; 
 });
-
-var savedData1 = localStorage.getItem('savedData1');
-document.getElementById('savedData1').innerText = savedData1 || 'No data available';
-
-var savedData1_1 = localStorage.getItem('savedData1_1');
-document.getElementById('savedData1_1').innerText = savedData1_1 || 'タイトルなし';
-    
