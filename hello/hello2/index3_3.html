@@ -3,16 +3,17 @@
     <head>
         <title>3のスペース</title>
         <link rel="stylesheet" href="../index.css" type="text/css">
+    </head>
+    <body>
+        <h1><div class="a">3のスペース</div></h1>　　　<input type="button" class="pinkbutton" onclick="location.href='index3.html'" value="入力">　　　<input type="button" class="yellowbutton" onclick="location.href='../index.html'" value="ホームへ"><br><br>
+        <div class="i">
+            <span id="savedData3"></span><br>
+        </div>
+
         <script>
             // ローカルストレージからデータを取得して表示
             var savedData3 = localStorage.getItem('savedData3');
             document.getElementById('savedData3').innerText = savedData3 || 'No data available';
         </script>
-    </head>
-    <body>
-        <h1><div class="a">3のスペース</div></h1>　　　<input type="button" class="pinkbutton" onclick="location.href='index3.html'" value="入力">　　　<input type="button" class="greenbutton" onclick="location.href='../index.html'" value="ホームへ"><br><br>
-        <div class="i">
-            <span id="savedData3"></span><br>
-        </div>
     </body>
 </html>
