@@ -1,7 +1,9 @@
 function saveData1() {
     var inputData1 = document.getElementById('dataInput1').value;
-
     localStorage.setItem('savedData1', inputData1);
+
+    var inputData1_1 = document.getElementById('dataInput1_1').value;
+    localStorage.setItem('savedData1_1', inputData1_1);
 }
 
 function saveData2() {
