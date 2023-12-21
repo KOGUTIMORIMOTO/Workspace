@@ -1,4 +1,4 @@
-.greenbutton:active {
+.greenbutton {
     width: 1200px;
     height:100px;
     background-color:rgb(209, 249, 219);
@@ -7,7 +7,16 @@
     font-size: 15pt;
 }
 
-.pinkbutton:active {
+.greenbutton:active {
+  width: 1200px;
+  height:100px;
+  background-color:rgb(82, 139, 97);
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 15pt;
+}
+
+.pinkbutton {
     width: 100px;
     height:50px;
     background-color:rgb(250, 183, 204);
@@ -16,7 +25,16 @@
     font-size: 15pt;
 }
 
-.bluebutton:active {
+.pinkbutton:active {
+  width: 100px;
+  height:50px;
+  background-color:rgb(165, 92, 115);
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 15pt;
+}
+
+.bluebutton {
     width: 100px;
     height:50px;
     background-color:rgb(185, 183, 250);
@@ -25,7 +43,16 @@
     font-size: 15pt;
 }
 
-.yellowbutton:active {
+.bluebutton:active {
+  width: 100px;
+  height:50px;
+  background-color:rgb(94, 91, 173);
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 15pt;
+}
+
+.yellowbutton {
   width: 100px;
   height:50px;
   background-color:rgb(250, 247, 183);
@@ -34,10 +61,28 @@
   font-size: 15pt;
 }
 
-.purplebutton:active {
+.yellowbutton:active {
+  width: 100px;
+  height:50px;
+  background-color:rgb(169, 165, 80);
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 15pt;
+}
+
+.purplebutton {
   width: 100px;
   height:50px;
   background-color:rgb(206, 174, 243);
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 15pt;
+}
+
+.purplebutton:active {
+  width: 100px;
+  height:50px;
+  background-color:rgb(129, 88, 177);
   border-radius: 10px;
   border: 3px solid black;
   font-size: 15pt;
