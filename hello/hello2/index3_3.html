@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Storage Demo</title>
+</head>
+<body>
+    <h1>1のスペース</h1><br><br>
+    <span id="savedData3"></span><br>
+
+    <script>
+        // ローカルストレージからデータを取得して表示
+        var savedData3 = localStorage.getItem('savedData3');
+        document.getElementById('savedData3').innerText = savedData3 || 'No data available';
+    </script>
+</body>
+</html>
