@@ -1,10 +1,19 @@
 <html>
     <head>
         <title>2のスペース</title>
+        <script src="index.js"></script>
+        <script>
+            // ローカルストレージからデータを取得して表示
+            var savedData2 = localStorage.getItem('savedData2');
+            document.getElementById('savedData2').innerText = savedData2 || 'No data available';
+        </script>
     </head>
     <body>
         2のスペース<br>
         <form style="margin-top:0em; margin-bottom:0em">
-        <input type="text" id="data" style="width:1000px; height:500px"><br>
+        <textarea id="dataInput2" style="width:1000px; height:500px"></textarea><br>
+        </form>
+        <input type="button" onclick="saveData2()" value="保存"><br><br>
+        <span id="savedData2"></span>
     </body>
 </html>
