@@ -1,4 +1,4 @@
-.greenbutton {
+.greenbutton:active {
     width: 1200px;
     height:100px;
     background-color:rgb(209, 249, 219);
@@ -7,7 +7,7 @@
     font-size: 15pt;
 }
 
-.pinkbutton {
+.pinkbutton:active {
     width: 100px;
     height:50px;
     background-color:rgb(250, 183, 204);
@@ -16,7 +16,7 @@
     font-size: 15pt;
 }
 
-.bluebutton {
+.bluebutton:active {
     width: 100px;
     height:50px;
     background-color:rgb(185, 183, 250);
@@ -25,7 +25,7 @@
     font-size: 15pt;
 }
 
-.yellowbutton {
+.yellowbutton:active {
   width: 100px;
   height:50px;
   background-color:rgb(250, 247, 183);
@@ -34,7 +34,7 @@
   font-size: 15pt;
 }
 
-.purplebutton {
+.purplebutton:active {
   width: 100px;
   height:50px;
   background-color:rgb(206, 174, 243);
