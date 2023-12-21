@@ -6,16 +6,25 @@
     </head>
     <body>
         <h1><div class="a">4のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index4.html'" value="編集"><br><br><br>
+        <div class="t">
+            <div class="i">
+                <span id="savedData4_4"></span>
+            </div>
+        </div><br>
         <div class="m">
-        <div class="i">
-            <span id="savedData4"></span><br>
-        </div>
-        </div>
+            <div class="i">
+                <span id="savedData4"></span>
+            </div>
+        </div><br>
 
         <script>
             // ローカルストレージからデータを取得して表示
             var savedData4 = localStorage.getItem('savedData4');
             document.getElementById('savedData4').innerText = savedData4 || 'No data available';
+        </script>
+        <script>
+            var savedData4_4 = localStorage.getItem('savedData4_4');
+            document.getElementById('savedData4_4').innerText = savedData4_4 || 'タイトルなし';
         </script>
     </body>
 </html>

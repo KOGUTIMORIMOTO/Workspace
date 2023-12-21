@@ -3,6 +3,7 @@
     <head>
         <title>プロジェクト実習</title>
         <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="index.js"></script>
     </head>
     <body>
         <header class="header">
@@ -11,15 +12,31 @@
             <h1><span style="font-size: 25pt;" class="a">場所を選ぶ：</span></h1>
         <div class="i">
         <input type="button" id="dataInput1_1" class="greenbutton" onclick="location.href='index1_1.html'" placeholder="1のスペース"><br><br>
-        <input type="button" class="greenbutton" onclick="location.href='index2_2.html'" value="2のスペース"><br><br>
-        <input type="button" class="greenbutton" onclick="location.href='index3_3.html'" value="3のスペース"><br><br>
-        <input type="button" class="greenbutton" onclick="location.href='index4_4.html'" value="4のスペース"><br><br>
+        <input type="button" id="dataInput2_2" class="greenbutton" onclick="location.href='index2_2.html'" value="2のスペース"><br><br>
+        <input type="button" id="dataInput3_3" class="greenbutton" onclick="location.href='index3_3.html'" value="3のスペース"><br><br>
+        <input type="button" id="dataInput4_4" class="greenbutton" onclick="location.href='index4_4.html'" value="4のスペース"><br><br>
         </div>
 
-        <script>
+        <!--<script>
             document.addEventListener('DOMContentLoaded', function() {
                 var savedData1_1 = localStorage.getItem('savedData1_1');
                 document.getElementById('dataInput1_1').value = savedData1_1 || 'タイトルなし'; 
+            });
+        </script>-->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var savedData2_2 = localStorage.getItem('savedData2_2');
+                document.getElementById('dataInput2_2').value = savedData2_2 || 'タイトルなし'; 
+            });
+        </script><script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var savedData3_3 = localStorage.getItem('savedData3_3');
+                document.getElementById('dataInput3_3').value = savedData3_3 || 'タイトルなし'; 
+            });
+        </script><script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var savedData4_4 = localStorage.getItem('savedData4_4');
+                document.getElementById('dataInput4_4').value = savedData4_4 || 'タイトルなし'; 
             });
         </script>
     </body>

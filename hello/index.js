@@ -23,3 +23,8 @@ function saveData4() {
 
     localStorage.setItem('savedData4', inputData4);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var savedData1_1 = localStorage.getItem('savedData1_1');
+    document.getElementById('dataInput1_1').value = savedData1_1 || 'タイトルなし'; 
+});
