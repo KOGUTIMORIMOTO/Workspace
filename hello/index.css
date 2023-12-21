@@ -52,11 +52,16 @@
 .i {
     margin-left: 3em;
     margin-right: 3em;
+}
+
+.m {
+    margin-left: 2em;
+    margin-right: 2em;
     background-color: rgb(244, 212, 243);
 }
 
 .header {
-  background-color: cornflowerblue;
+  background:linear-gradient(0deg, rgb(60, 111, 207), rgb(157, 184, 234)); 
   height:60px;
 }
 
