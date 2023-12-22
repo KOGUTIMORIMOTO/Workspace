@@ -4,26 +4,30 @@ function saveData1() {
 
     var inputData1_1 = document.getElementById('dataInput1_1').value;
     localStorage.setItem('savedData1_1', inputData1_1);
-
-    document.getElementById("current_date").innerHTML = Date();
 }
 
 function saveData2() {
     var inputData2 = document.getElementById('dataInput2').value;
-
     localStorage.setItem('savedData2', inputData2);
+
+    var inputData2_2 = document.getElementById('dataInput2_2').value;
+    localStorage.setItem('savedData2_2', inputData2_2);
 }
 
 function saveData3() {
     var inputData3 = document.getElementById('dataInput3').value;
-
     localStorage.setItem('savedData3', inputData3);
+
+    var inputData3_3 = document.getElementById('dataInput3_3').value;
+    localStorage.setItem('savedData3_3', inputData3_3);
 }
 
 function saveData4() {
     var inputData4 = document.getElementById('dataInput4').value;
-
     localStorage.setItem('savedData4', inputData4);
+
+    var inputData4_4 = document.getElementById('dataInput4_4').value;
+    localStorage.setItem('savedData4_4', inputData4_4);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
