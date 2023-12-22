@@ -90,11 +90,6 @@
   font-size: 15pt;
 }
 
-.label {
-  font-size: 20pt;
-  font-weight: bold;
-}
-
 .textarea {
   width:1000px;
   height:500px;
@@ -120,6 +115,11 @@
 
 .d {
   font-size: 12pt;
+}
+
+.l {
+  font-size: 20pt;
+  font-weight: bold;
 }
 
 .m {
